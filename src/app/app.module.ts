@@ -2,12 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { IcoListService } from './services/ico-list.service';
 import {
   FooterComponent,
   BannerComponent,
   MainComponent,
   ListItemComponent
 } from './components';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -18,9 +20,12 @@ import {
     ListItemComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [
+    IcoListService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
