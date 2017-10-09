@@ -2,15 +2,15 @@
     {
         "company": "Codefiction",
         "projectName": "Güven",
-        "description": "Lorem ipsum lorem ipsum lorem ipsum lorem lorem lorem lorem hanıme lorem",
+        "description": "Bu projenin amacı, üretilen ürünlerin sağlıklı ve gerekli belgelere sahip olmasının kanıtlanmasıdır.",
         "status": "Devam",
-        "icolink": "https://icotracker.net"
+        "icolink": "http://www.codefiction.tech"
     },
     {
-        "company": "Codefiction",
-        "projectName": "Demokrasi",
-        "description": "Lorem ipsum lorem ipsum lorem ipsum lorem lorem lorem lorem hanıme lorem",
+        "company": "Örnek firma ismi",
+        "projectName": "Örnek proje ismi",
+        "description": "Proje açıklaması",
         "status": "Bitti",
-        "icolink": "https://icotracker.net"
+        "icolink": "http://www.codefiction.tech"
     }
 ]

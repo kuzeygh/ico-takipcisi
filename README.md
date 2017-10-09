@@ -8,7 +8,17 @@ Bu uygulamanın amacı, Türkiye'den ICO'ya girip bitirmiş (past), girecek (upc
 
 ### Nasıl dahil olabilirim?
 
-Codefiction altındaki bu projeyi kendi hesabınıza fork'layıp, [json](#) dosyasına ICO projenizi ekledikten sonra bize PR atabilir veya proje isminizi, kısa bir tanıtım yazısını ve icotracker.net linkini [Codefiction Twitter](https://twitter.com/codefictiontech) hesabından iletişime geçerek iletebilirsiniz.
+Codefiction altındaki bu projeyi kendi hesabınıza fork'layıp, [json](https://github.com/CodeFiction/ico-takipcisi/tree/master/src/assets/ico-list.json) dosyasına ICO projenizi ekledikten sonra bize PR atabilir veya proje isminizi, kısa bir tanıtım yazısını ve icotracker.net linkini [Codefiction Twitter](https://twitter.com/codefictiontech) hesabından iletişime geçerek iletebilirsiniz.
+
+#### Json dosyasındaki alanlar
+**Durum (Status)**
+* Bitti: ICO'nun bittiği durumlarda kullanılır.
+* Bekliyor: ICO'ya henüz girilmediği durumlarda kullanılır. Hazırlıkların devam ettiği projelerdir.
+* Devam: ICO'ya girilmiş ve halen ICO'da olunan durumlar içindir.
+
+**IcoLink**
+
+Projenin icotracker.net adresindeki linkidir. Projenin kendi web sitesinin veya whitepaper'ının linki de koyulabilir.
 
 # Geliştirme
 ### Çalıştırma
